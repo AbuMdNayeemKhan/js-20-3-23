@@ -64,22 +64,34 @@
 //     console.log(i);
 // }
 
-var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
+// var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
 
-for(i=0; i < family.length; i++){
-    console.log(family[i]);
+// for(i=0; i < family.length; i++){
+//     console.log(family[i]);
+// }
+
+// var num1 = 20;
+// var num2 = 30;
+
+// console.log(num1 * num2);
+
+//==========JavaScript Function
+
+// function fun(){
+//     var num1 = 10;
+//     var num2 = 20;
+//     console.log(num1 + num2);
+// };
+
+// fun();
+
+function fun2(num1, num2){
+    var total = num1 + num2;
+    console.log(total)
 }
-
-
-
-
-
-
-
-
-
-
-
-
+fun2(20, 30);
+fun2(20, 20);
+fun2(20, 10);
+fun2(10, 30);
 
 
