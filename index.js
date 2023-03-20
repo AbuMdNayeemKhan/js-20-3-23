@@ -42,7 +42,7 @@
 
 //==========javascript array
 
-var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
+// var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
 
 //family.push("Baba"); // add a new array data in array. data will save in last
 
@@ -54,6 +54,32 @@ var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
 
 // console.log(family.slice(2,3)); // slice are not replace main arrayy
 
-family.splice(0,2, "Nayeem Khan"); //splice replace main array
+//family.splice(0,2, "Nayeem Khan"); //splice replace main array
 
-console.log(family);
+//console.log(family);
+
+//==========for loop
+
+// for (i = 0; i < 10; i++){
+//     console.log(i);
+// }
+
+var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
+
+for(i=0; i < family.length; i++){
+    console.log(family[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
