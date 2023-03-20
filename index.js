@@ -22,23 +22,28 @@
 // console.log(vag);
 
 //==========predefined function of javascript
-number1 = 20;
-number2 = 450;
+// number1 = 20;
+// number2 = 450;
 
 
 //==========condition
 
-var a = 5;
-var b = 4;
-if(a < b){
-    console.log("A is lesthan B");
-} else if (a > b) {
-    console.log("A is geater than B");
-} else{
-    console.log("Both are equal.");
-}
+// var a = 5;
+// var b = 4;
+// if(a < b){
+//     console.log("A is lesthan B");
+// } else if (a > b) {
+//     console.log("A is geater than B");
+// } else{
+//     console.log("Both are equal.");
+// }
 
 //==========switch statement 
 
 //==========javascript array
 
+var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
+
+family = family[1];
+
+console.log(family);
