@@ -52,4 +52,8 @@ var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
 
 //family.shift(); // remove first data form array
 
+// console.log(family.slice(2,3)); // slice are not replace main arrayy
+
+family.splice(0,2, "Nayeem Khan"); //splice replace main array
+
 console.log(family);
