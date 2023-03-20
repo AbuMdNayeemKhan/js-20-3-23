@@ -44,6 +44,12 @@
 
 var family = ["Anoara", "Mannan", "khushi", "Nayeem", "Zioun"];
 
-family = family[1];
+//family.push("Baba"); // add a new array data in array. data will save in last
+
+//family.pop(); // remove last data form array
+
+//family.unshift("Jan Pakhi"); // add data in an array. data will save in first
+
+//family.shift(); // remove first data form array
 
 console.log(family);
