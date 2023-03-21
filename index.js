@@ -90,8 +90,15 @@ function fun2(num1, num2){
     console.log(total)
 }
 fun2(20, 30);
-fun2(20, 20);
-fun2(20, 10);
-fun2(10, 30);
+// fun2(20, 20);
+// fun2(20, 10);
+// fun2(10, 30);
+ 
+// function fun3(num1, num2){
+//     var total = num1 * num2;
+//     return total;
+// }
 
+// var result = fun3(10, 20);
 
+// console.log(result);
