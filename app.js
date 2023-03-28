@@ -24,8 +24,9 @@ function MyObj(name, age, phone, salary){
     }
 }
 
-var ofNayeem = new MyObj("Nayeem", 22, 01619981998, 5000);
+var ofNayeem = new MyObj("Nayeem", 24, 01619981998, 5000);
+var ofZioun = new MyObj("Zioun", 20, 01619971997, "NaN");
 
-console.log(ofNayeem.showMe());
+console.log(ofZioun.showMe());
 
 //====================JS OBJECT ENDED====================//  
